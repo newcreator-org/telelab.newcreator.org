@@ -36,9 +36,9 @@ module.exports = {
         short_name: `テレラボ`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#0287fe`,
+        theme_color: `#00a9eb`,
         display: `minimal-ui`,
-        icon: `src/images/circle_blue.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon-flask-typography.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
