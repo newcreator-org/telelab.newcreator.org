@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `サメプロ`,
-    description: `プログラミング教育の「サメプロ」Webサイトです！`,
-    author: `@gatsbyjs`,
+    title: `テレラボ by Inceptum & newCreator`,
+    description: ``,
+    author: `@nC_org`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,21 +20,20 @@ module.exports = {
         path: `${__dirname}/src/markdown`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-165839104-1",
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "",
+    //   },
+    // },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `サメプロ`,
-        short_name: `サメプロ`,
+        name: `テレラボ by Inceptum & newCreator`,
+        short_name: `テレラボ`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#0287fe`,
