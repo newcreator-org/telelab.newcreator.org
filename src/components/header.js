@@ -4,37 +4,37 @@ import React from "react"
 import MainLogo from "../components/MainLogo"
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <div className="headerLogo">
-      <Link to="/">
-        <MainLogo />
-      </Link>
-    </div>
-    <div className="mainNav">
-      <ul>
-        <li>
-          <Link to="/#about">サメプロとは？</Link>
-        </li>
-        <li>
-          <Link to="/#cource">コース</Link>
-        </li>
-        <li>
+    <header>
+        <div className="headerLogo">
+            <Link to="/">
+                <MainLogo />
+            </Link>
+        </div>
+        <div className="mainNav">
+            <ul>
+                <li>
+                    <Link to="/#about">テレラボとは？</Link>
+                </li>
+                <li>
+                    <Link to="/#cource">コース</Link>
+                </li>
+                {/* <li>
           <Link to="/#community">コミュニティ</Link>
-        </li>
-        <li>
-          <Link to="/#team">運営メンバー</Link>
-        </li>
-      </ul>
-    </div>
-  </header>
+        </li> */}
+                <li>
+                    <Link to="/#team">講師紹介</Link>
+                </li>
+            </ul>
+        </div>
+    </header>
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+    siteTitle: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+    siteTitle: ``,
 }
 
 export default Header
