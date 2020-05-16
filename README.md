@@ -1,5 +1,4 @@
-# サメプロのサイト
-このサイトは、GatsbyJSで開発されています。
+# Telelab
 
 ```console
 #依存パッケージのインストール
@@ -9,5 +8,4 @@ npm install
 npm run
 ```
 
-
-&copy;2020 samepro
+&copy;2020 newCreator.org
