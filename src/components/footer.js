@@ -5,12 +5,12 @@ import MainLogo from "../components/MainLogo"
 
 const Footer = ({ siteTitle }) => (
     <footer>
-        <div className="footerLogo">
+        <div className="footer__logo">
             <Link to="/">
                 <MainLogo />
             </Link>
         </div>
-        <div className="footerLinks">
+        <div className="footer__links">
             <ul>
                 <li>
                     <Link to="tos">利用規約</Link>
@@ -21,7 +21,7 @@ const Footer = ({ siteTitle }) => (
             </ul>
         </div>
         <div className="copy">
-            <span>&copy; {new Date().getFullYear()} テレラボ</span>
+            <span>&copy; {new Date().getFullYear()} テレラボ <small>by Inceptum & newCreator.org</small></span>
         </div>
     </footer>
 )
