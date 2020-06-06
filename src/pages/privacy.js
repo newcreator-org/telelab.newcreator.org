@@ -1,11 +1,11 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 
 const Privacy = () => {
-  const data = useStaticQuery(graphql`
+    const data = useStaticQuery(graphql`
   query {
     markdownRemark(frontmatter: {slug: {eq: "privacy"}}) {
       html
@@ -15,16 +15,16 @@ const Privacy = () => {
     }
   }
   `)
-  console.log(data.markdownRemark.html)
-  return (
-    <>
-    <Layout>
-    <SEO title={data.markdownRemark.frontmatter.title} />
-      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} className="pageContents" />
-    
-    </Layout>
-    </>
-  )
-  }
+    console.log(data.markdownRemark.html)
+    return (
+        <>
+            <Layout>
+                <SEO title={data.markdownRemark.frontmatter.title} />
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} className="pageContents" />
+
+            </Layout>
+        </>
+    )
+}
 
 export default Privacy
