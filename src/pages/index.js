@@ -10,9 +10,9 @@ const IndexPage = () => (
         <SEO title="ホーム" />
         <MainImage />
         <div id="about" className="topPageContents">
-            <h2>はじめまして、</h2>
-            <p className="center">
-                はじめまして、テレラボです。</p>
+            <h2>テレラボとは？</h2>
+            <p className="center">プログラミングを通して、理科について学びを深めることができる、オンラインの教室です。
+            </p>
             <div className="card">
                 <h3>初心者でも楽しく、そして深くプログラミングを学べる教室です。</h3>
                 <div className="seeMoreWrap">
@@ -76,17 +76,25 @@ const IndexPage = () => (
             {/* <p className="center">コミュニティへの参加は無料！</p> */}
         </div>
         <div id="team" className="topPageContents">
-            <h2>運営チーム</h2>
+            <h2>運営会社</h2>
             <p className="center">
-                テレラボの運営スタッフのご紹介
+                運営会社
       </p>
             <div className="cards">
                 <div className="card">
                     <div className="profile">
-                        <h3>yoshi</h3>
+                        <h3>株式会社インセプタム</h3>
                         <p></p>
                     </div>
                 </div>
+                <div className="card">
+                    <div className="profile">
+                        <h3>特定非営利活動法人ニュークリエイター・オルグ
+                        </h3>
+                        <p></p>
+                    </div>
+                </div>
+
                 {/* card を連続 */}
             </div>
         </div>

@@ -1,15 +1,13 @@
-$MainColor: #09f;
-$SubColor: #023563;
+$MainColor: #00A9EB;
+$SubColor: #024387;
 $CommunityColor: #3c3;
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 // @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
 * {
-  // font-family: 'Noto Sans JP', sans-serif;
-  font-family: a-otf-futo-go-b101-pr6n, sans-serif;
-
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
-
   font-style: normal;
 }
 
@@ -33,7 +31,10 @@ a {
 }
 
 body {
-  background-color: #e0ffff;
+  // background-color: #e0ffff;
+  background-image: url(../images/cover.png);
+  background-size: 20%;
+  background-repeat: repeat;
   margin: 0;
 }
 
@@ -94,10 +95,9 @@ header {
     color: $MainColor;
     vertical-align: middle;
     font-size: 20px;
-    padding: 6px 0;
+    padding: 8px 20px;
     border: $MainColor 1px solid;
-    height: 40px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 100px;
 
     &::before {
       content: "もっと読む";
@@ -171,7 +171,7 @@ main {
       text-align: center;
       color: $SubColor;
       font-size: 2rem;
-      margin: 16px auto 8px auto;
+      margin: 24px auto 8px auto;
     }
   }
 
