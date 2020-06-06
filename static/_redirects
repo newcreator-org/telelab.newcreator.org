@@ -1,0 +1,3 @@
+https://telelab.netlify.app/* https://telelab.newcreator.org/:splat 301!
+http://telelab.netlify.app/* https://telelab.newcreator.org/:splat 301!
+http://telelab.newcreator.org/* https://telelab.newcreator.org/:splat 301!
