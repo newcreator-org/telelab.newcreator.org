@@ -4,8 +4,8 @@ import React from "react"
 import MainLogo from "../components/MainLogo"
 
 const Header = ({ siteTitle }) => (
-    <header>
-        <div className="headerLogo">
+    <header className="header">
+        <div className="header__logo">
             <Link to="/">
                 <MainLogo />
             </Link>
