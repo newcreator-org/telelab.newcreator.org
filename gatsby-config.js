@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `サメプロ`,
-        description: `プログラミング教育の「サメプロ」Webサイトです！`,
+        title: `テレラボ`,
+        description: `プログラミング教育の「テレラボ」Webサイトです！`,
         author: `@gatsbyjs`,
     },
     plugins: [
@@ -33,8 +33,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `サメプロ`,
-                short_name: `サメプロ`,
+                name: `テレラボ`,
+                short_name: `テレラボ`,
                 start_url: `/`,
                 background_color: `#ffffff`,
                 theme_color: `#0287fe`,
