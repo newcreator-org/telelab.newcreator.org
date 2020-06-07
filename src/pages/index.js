@@ -27,7 +27,7 @@ const IndexPage = () => (
                     <p className="card__description">
                         オンラインの自習室が使い放題です。<br />
                         他の人とのコミュニケーションも行うことができます。</p>
-                    <p className="card__price">0</p>
+                    <p className="card__price card__price--yen">0</p>
                     {/* <Link to="modernEnvDev">
                         <div className="button">
                             詳細はこちら</div>
@@ -38,12 +38,24 @@ const IndexPage = () => (
                     <p className="card__description">
                         オンラインの自習室が使い放題です。<br />
                         他の人とのコミュニケーションも行うことができます。</p>
-                    <p className="card__price">0</p>
+                    <p className="card__price card__price--per">5,000</p>
                     {/* <Link to="modernEnvDev">
                         <div className="button">
                             詳細はこちら</div>
                     </Link> */}
                 </div>
+                <div className="card">
+                    <h3 className="card__title">自習室コース</h3>
+                    <p className="card__description">
+                        オンラインの自習室が使い放題です。<br />
+                        他の人とのコミュニケーションも行うことができます。</p>
+                    <p className="card__price card__price--text">0</p>
+                    {/* <Link to="modernEnvDev">
+                        <div className="button">
+                            詳細はこちら</div>
+                    </Link> */}
+                </div>
+
             </div>
         </div>
         <div id="community" className="sections">
