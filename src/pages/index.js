@@ -58,9 +58,11 @@ const IndexPage = () => (
 
             </div>
         </div>
-        <div id="community" className="sections">
-            <h2 className="title">開講情報とお申し込みはこちら！</h2>
-            <p className="text"></p>
+        <div id="teacher" className="sections">
+            <h2 className="title">講師について</h2>
+            <p className="text">
+                「テレラボ」では有名大学の理数系学科出身の方・研究者の方や、<br />フリーランスや有名IT企業にて勤務したことのあるエンジニアなど、<br />プロフェッショナルの方々に講師を担当していただきます。<br />また、授業は全て「ZOOM」というアプリケーションを通して行います。<br />授業の内容は録画されておりますので、ご安心ください。
+            </p>
 
             {/* <h2>まずはテレラボSlackコミュニティに参加しよう！</h2> */}
             {/* <p className="center">コミュニティへの参加は無料！</p> */}

@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
                     <Link to="/#cource">コース</Link>
                 </li>
                 <li>
-                    <Link to="/#community">コミュニティ</Link>
+                    <Link to="/#teacher">コミュニティ</Link>
                 </li>
                 <li>
                     <Link to="/#team">運営メンバー</Link>
