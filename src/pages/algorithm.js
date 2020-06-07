@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Layout from "../components/layout/layout"
+import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 
 const Algorithm = () => {

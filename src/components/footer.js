@@ -21,7 +21,7 @@ const Footer = ({ siteTitle }) => (
             </ul>
         </div>
         <div className="copy">
-            <span>&copy; {new Date().getFullYear()} テレラボ <small>by Inceptum & newCreator.org</small></span>
+            <span>&copy; {new Date().getFullYear()} テレラボ <small>by Inceptum &amp; newCreator.org</small></span>
         </div>
     </footer>
 )

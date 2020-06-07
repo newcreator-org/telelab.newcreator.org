@@ -7,12 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../header"
 import Footer from "../footer"
 import "./layout.scss"
-import MainLogo from "../MainLogo"
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
