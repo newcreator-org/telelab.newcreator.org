@@ -65,7 +65,7 @@ function SEO({ description, lang, meta, title }) {
                 },
                 {
                     name: `twitter:site`,
-                    content: `@SameproJP`
+                    content: `@nC_org`
                 },
                 {
                     name: `twitter:creator`,
